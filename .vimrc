@@ -4,5 +4,8 @@ set shiftwidth=2
 set autoindent
 set expandtab
 set guifont=Inconsolata:h16
-colorscheme twilight
+
+" pathogen
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
 
